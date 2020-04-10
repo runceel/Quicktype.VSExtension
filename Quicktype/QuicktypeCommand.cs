@@ -132,7 +132,7 @@ namespace Quicktype
                 p.StartInfo.RedirectStandardError = true;
                 p.StartInfo.CreateNoWindow = true;
                 p.StartInfo.FileName = "quicktype.cmd";
-                p.StartInfo.Arguments = "--telemetry disable --lang \"" + language + "\" --top-level \"" + topLevelName + "\" \"" + jsonFileName + "\"";
+                p.StartInfo.Arguments = $"--telemetry disable --lang \"{language }\" --top-level \"{topLevelName}\" \"{jsonFileName}\"";
                 p.Start();
                 var output = p.StandardOutput.ReadToEnd();
                 p.WaitForExit();

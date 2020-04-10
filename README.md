@@ -11,6 +11,6 @@ https://quicktype.io
 2. Install this extension to your Visual Studio.
 3. Copy a JSON text to clipboard.
 4. Open a file on Visual Studio.
-5. Select [Tools] -> [Paste JSON as Code].
+5. Select [Edit] -> [Paste JSON as Code].
 
 ![Extensions](images/extensions.gif)

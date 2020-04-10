@@ -77,6 +77,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Resources\QuicktypeCommand.png" />
     <Content Include="Resources\QuicktypeCommandPackage.ico" />
   </ItemGroup>

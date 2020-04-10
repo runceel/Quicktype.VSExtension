@@ -37,7 +37,7 @@
          must be a menu. -->
     <Groups>
       <Group guid="guidQuicktypeCommandPackageCmdSet" id="MyMenuGroup" priority="0x0600">
-        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_EDIT"/>
       </Group>
     </Groups>
 
@@ -54,7 +54,6 @@
           If you do not want an image next to your command, remove the Icon node /> -->
       <Button guid="guidQuicktypeCommandPackageCmdSet" id="QuicktypeCommandId" priority="0x0100" type="Button">
         <Parent guid="guidQuicktypeCommandPackageCmdSet" id="MyMenuGroup" />
-        <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
           <ButtonText>Paste JSON as Code</ButtonText>
         </Strings>

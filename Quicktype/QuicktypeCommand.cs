@@ -106,7 +106,7 @@ namespace Quicktype
             }
 
             var dte = (DTE)Package.GetGlobalService(typeof(DTE));
-            if (!(dte.ActiveDocument.Object() is TextDocument doc))
+            if (!(dte?.ActiveDocument?.Object() is TextDocument doc))
             {
                 ShowMessage("Cannot paste - please open a document");
                 return;

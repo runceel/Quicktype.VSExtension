@@ -5,7 +5,7 @@ If you don't know quicktype, plese check below site:
 
 https://quicktype.io
 
-## How to user
+## How to use
 
 1. Install quicktype to your machine using `npm install -g quicktype`.
 2. Install this extension to your Visual Studio.
